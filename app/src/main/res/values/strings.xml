@@ -1,0 +1,71 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!-- Hint text to display in the customer name field [CHAR LIMIT=20] -->
+    <string name="user_name">Name</string>
+
+    <!-- Text to indicate optional extra toppings for the order [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Option label for whipped cream option [CHAR LIMIT=20] -->
+    <string name="whipped_cream">Whipped cream</string>
+
+    <!-- Option label for chocolate option [CHAR LIMIT=20] -->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- Negative button for reducing the number of cups [CHAR LIMIT=1] -->
+    <string name="decrement">-</string>
+
+    <!-- Number of cups of coffee heading [CHAR LIMIT=20] -->
+    <string name="quantity">Quantity</string>
+
+    <!-- Positive button for increasing the number of cups [CHAR LIMIT=1] -->
+    <string name="increment">+</string>
+
+    <!-- Total calculated price of order [CHAR LIMIT=10] -->
+    <string name="total_price">Total</string>
+
+    <!-- Order button text [CHAR LIMIT=10] -->
+    <string name="order_button">Order</string>
+
+    <!-- Yes text for option responses -->
+    <string name="yes">Yes</string>
+
+    <!-- No text for option responses -->
+    <string name="no">No</string>
+
+    <!-- Name line for the order summary to be sent to the store.
+    The format shown will be "Name: Cathy" where Cathy is the users name. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Cathy">%s</xliff:g></string>
+
+    <!-- Quantity line for the order summary to be sent to the store.
+    The format shown will be "Quantity: 1" where 1 is the given quantity. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="1">%d
+    </xliff:g></string>
+
+    <!-- Whipped Cream line for the order summary to be sent to the store. The format shown will
+    be "Whipped cream: Yes" where Yes is the users choice in the affirmative. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_whipped_cream">Whipped cream:
+        <xliff:g id="whippedCream" example="No">%s</xliff:g></string>
+
+    <!-- Chocolate line for the order summary to be sent to the store. The format shown will
+    be "Chocolate: No" where No is the users choice in the negative. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_chocolate">Chocolate:
+        <xliff:g id="chocolate" example="No">%s</xliff:g>
+    </string>
+
+    <!-- Total price line for the order summary to be sent to the store. The format shown will
+    be "Total: $5.00" where Total is the local translation, and $5.00 is the total
+    calculated price of the order in local currency. [CHAR LIMIT=NONE] -->
+    <string name="order_summary_price">Total: <xliff:g id="price" example="$5">%s</xliff:g>
+    </string>
+
+    <!-- Salutation line of thanks for the order summary to be sent to the store. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_thanks">Thank you!</string>
+
+    <!-- Email subject line including name, where name is Cathy [CHAR LIMIT = NONE} -->
+    <string name="subject">Just Java coffee order for <xliff:g id="name" example="Cathy">%s
+    </xliff:g></string>
+
+</resources>
